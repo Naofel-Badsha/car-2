@@ -492,6 +492,71 @@ section{
 
 
 
+/*----------Review------------Section----------Start----------*/
+.Review{
+    margin-top: 10rem;
+    padding: 0px 40px;
+    height: 50vh;
+  }
+  
+  .Review .review-slider .box{
+     border: 4px solid #32cd32;
+     background: #fff;
+     border-radius: .5rem;
+     padding: 20px 0;
+     text-align: center;
+     outline-offset: -1rem;
+     outline: none;
+     box-shadow: #ff004f;
+     transition: .2s linear;
+     overflow: hidden;
+  }
+  
+  .Review .review-slider .box:hover{
+    box-shadow: 1px 1px 10px 4px green;
+  }
+  
+  .Review .review-slider .box img{
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+      transition: 0.3s;
+  }
+  
+  .Review .review-slider .box:hover img{
+      transform: scale(1.1);
+  }
+  
+  .Review .review-slider .box p{
+      padding:  0;
+      line-height: 1.8rem;
+      color: lightseagreen;
+      font-size: 1.3rem;
+      font-style: italic;
+      font-family: sans-serif;
+  }
+  
+  .Review .review-slider .box h3{
+      padding: 10px 0;
+      line-height: 1.8rem;
+      color: coral;
+      font-size: 1.8rem; 
+      font-family: sans-serif;
+  }
+  
+  .Review .review-slider .box .stars{
+      color: cornflowerblue;
+  }
+  
+  .Review .review-slider .box .stars i{
+      font-size: 1.1rem;
+      padding: 2px;
+  }
+/*----------Review------------Section----------End----------*/
+
+
+
+
 
 
 

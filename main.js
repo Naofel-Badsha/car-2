@@ -90,3 +90,30 @@ var swiper = new Swiper(".VehiclesSlider", {
       },
     });
   //---------Vehicls---------Swiper--------Slider----------//
+
+
+
+  //---------Clint------------Review--------Slider----------//
+var swiper = new Swiper(".review-slider", {
+    grabCursor: true,
+    spaceBetween: 20,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    //--------This-----Is----For-----Responsive-------//
+    breakpoints: {
+      640: {
+          slidesPerView: 1,
+      },
+      770: {
+          slidesPerView: 2,
+      },
+      1200: {
+          slidesPerView: 3,
+      },
+    },
+  });
+  //---------Clint------------Review--------Slider----------//
