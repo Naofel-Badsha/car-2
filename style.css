@@ -618,6 +618,87 @@ section{
 
 
 
+/*----------Footer----------Section---------Start-----------*/
+.footer{
+    background: #ada3a5;
+    margin-top: 30px;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+
+.footer .box-container .box{
+    padding: 1rem 0;
+    flex: 1 1 15rem;
+}
+
+.footer .box-container .box h3{
+   font-size: 2.5rem;
+   font-family: sans-serif;
+   padding: .7rem 0;
+   color: #b93962;
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    padding: .7rem 0;
+    color: #fff;
+ }
+
+ 
+.footer .box-container .box a{
+    display: block;
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding: .7rem 0;
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .footer .box-container .box a:hover{
+    transform: translateX(10px);
+    color: #b93962;
+    text-decoration: underline;
+ }
+
+ .footer .box-container .box i{
+    font-size: 3rem;
+    margin: .5rem;
+    margin-top: 1rem;
+    color: rgb(13, 94, 145);
+ }
+
+ .footer .box-container .box i:hover{
+    transform: translateY(-10px);
+    color: #ff004f;
+    cursor: pointer;
+ }
+
+ .footer .cradit{
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    padding: 4rem;
+ }
+
+ .footer .cradit span{
+    color: fuchsia;
+ }
+ 
+ .footer .cradit i{
+    color: #ff004f;
+    font-size: 4rem;
+ }
+ /*----------Footer----------Section---------End-----------*/
+
+
+
 
 
 
