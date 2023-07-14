@@ -557,6 +557,68 @@ section{
 
 
 
+/*----------Contact------------Section----------Start----------*/
+.Book .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Book .row .image{
+    flex: 1 1 45rem;
+}
+
+.Book .row .image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.Book .row form{
+    flex: 1 1 45rem; 
+    margin-top: 40px;
+    background: #e6cccc; 
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.Book .row form h3{
+    color: #42b530;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    font-style: italic; 
+}
+
+.Book .row form .box{
+    width: 100%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    border: var(--border);
+    font-size: 1.7rem;
+    color: #ff004f;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.Book .row form .box:focus{
+ border: 3px solid #32cd32;
+}
+
+.Book .row form .btn{
+    padding: 1.4rem;
+}
+/*----------Contact------------Section----------End----------*/
+
+
+
+
 
 
 
