@@ -64,3 +64,29 @@ valueDidplays.forEach((valueDidplay) => {
     }, duration);
 });
 //---------Icons------------Container---------End---------//
+
+
+
+//---------Vehicls---------Swiper--------Slider----------//
+var swiper = new Swiper(".VehiclesSlider", {  
+    grabCursor: true,
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+    },
+    
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+        },
+        770: {
+            slidesPerView: 2,
+        },
+        1200: {
+            slidesPerView: 3,
+        },
+      },
+    });
+  //---------Vehicls---------Swiper--------Slider----------//

@@ -296,6 +296,55 @@ section{
 
 
 
+/*----------Vehicls------------Section----------Start------------*/
+.VehiclesSlider .box{
+    text-align: center;
+}
+
+.Vehicls img{
+    width: 100%;
+    height: 100%;
+}
+
+.VehiclesSlider .box .content h3{
+    font-size: 2.8rem;
+    padding-top: 1rem;
+}
+
+.VehiclesSlider .box .content .price{
+    color: var(--croom);
+    font-weight: 600;
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.VehiclesSlider .box .content .price span{
+    color: dodgerblue;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.VehiclesSlider .box .content p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: italic;
+    padding: 1rem 0;
+    padding-top: 1.5rem;
+    border-top: var(--border);
+    color: var(--croom);
+}
+
+.VehiclesSlider .box .content p span{
+    color: #32cd32;
+    margin-left: 3px;
+}
+/*----------Vehicls------------Section----------End------------*/
+
+
+
+
 
 
 
