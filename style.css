@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Clicker+Script&family=Dancing+Script:wght@400;600;700&family=Pacifico&family=Poppins:ital,wght@0,300;1,300&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    transition: 0.3s;
+    /*
+    font-family: 'Dancing Script';
+    */
+}
+:root{
+    --croom: #ff004f;
+    --border: 0.2rem solid #093153;
+    --box-shadow: 0 0.5rem 1rem #026b02;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background: var(--croom);
+    color: #fff;
+}
+
+.btn{
+    background:  var(--croom);
+    display: inline-block;
+    padding: .8rem 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.btn:hover{
+    background: coral;
+    color: lightseagreen;
+    letter-spacing: 3px;
+}
+
+section{
+    padding: 1rem 9%;
+}
+
+.heading{
+    font-size: 4.5rem;
+    font-family: 'Dancing Script';
+    text-decoration: underline;
+    color: var(--croom);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/*----------Header----------Start---------*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 3rem 9%;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem #093153;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.header .logo{
+    font-size: 3rem;
+    color: var(--croom);
+    font-weight: 700;
+}
+
+.header .logo span{
+    color: #b93962;
+    font-size: 3.5rem;
+}
+
+.header  .navbar a{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--back);
+    margin: 0 1rem;
+}
+
+.header .navbar a:hover{
+    color: var(--croom);
+}
+
+.header .btn{
+    margin-top: 0;
+}
+
+.header #loginBtn i{
+    font-size: 2.5rem;
+    color: var(--croom);
+    cursor: pointer;
+    display: none;
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    color: var(--croom);
+    cursor: pointer;
+    display: none;
+}
+/*------------Header------------End-----------*/
+
+
+
+
+/*----------Login--------Form---------Start---------*/
+.loginFormomContainer #CloseLoginForm i{
+    margin-top: 10rem;
+ }
+ .loginFormomContainer.active{
+     top: 0;
+ }
+ 
+ .loginFormomContainer{
+     position: fixed;
+     top: -105%;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background: rgba(255, 255, 255,.8);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 1000;
+     padding-top: 7rem;
+ }
+ 
+ .loginFormomContainer form{
+     margin: 1rem;
+     border: var(--border);
+     box-shadow: var(--box-shadow);
+     border-radius: .5rem;
+     padding: 2rem;
+     text-align: center;
+     width: 40rem;
+ }
+ 
+ .loginFormomContainer form .buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+ 
+ .loginFormomContainer form h3{
+     font-size: 3rem;
+     color: var(--croom);
+     font-weight: 600;
+ }
+ 
+ .loginFormomContainer form p{
+     font-size: 1.8rem;
+     color: #074f4f;
+     font-weight: 600;
+     font-style: italic;
+     padding: 1rem;
+ }
+ 
+ .loginFormomContainer form a:hover{
+     text-decoration: underline;
+ }
+ 
+ .loginFormomContainer form .btn{
+     width: 100%;
+ }
+ 
+ .loginFormomContainer form ::placeholder{
+     color: var(--croom);
+     font-weight: 600;
+ }
+ .loginFormomContainer form .box{
+     font-size: 1.8rem;
+     width: 100%;
+     margin: 0.7rem 0;
+     border: var(--border);
+     padding: 1rem 1.2rem;
+     border-radius: .5rem;
+ }
+ 
+ .loginFormomContainer form .box:focus{
+     background: #477575;
+     color: #fff;
+     box-shadow: 3px 3px #32cd32;
+ }
+ 
+ .loginFormomContainer #CloseLoginForm{
+     position: absolute;
+     top: 1.5rem;
+     right: 2.5rem;
+     font-size: 3.5rem;
+     color: #32cd32;
+     cursor: pointer;
+ }
+ /*-----------Login---------Form----------End----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*----------Media-----------Responsive----------Start---------*/
+/*----------Header------Responsive-------Start---------*/
+@media screen and (max-width: 991px) {
+    html{
+        font-size: 55%;
+    }  
+    
+    .header{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header #loginBtn i{
+        display: block;
+    }
+
+    .header #loginBtn .btn{
+        display: none;
+    }
+
+    #menu-btn{
+        display: block;
+    }
+
+    .fa-times{
+        transform: rotate(360deg);
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); 
+        background: #a8bbdd;
+    }
+
+    .header .navbar a{
+        display: block;
+        margin: 2.5rem;
+        font-size: 2rem;
+        background: #1a5757;
+        color: #ffff;
+        padding: .8rem;
+        text-align: center;
+        border-radius: .5rem;
+    }
+
+    .header .navbar a:hover{
+        background: #fff;
+    }
+
+    .Home  img{
+        margin-top: -7rem;
+    }
+
+    .footer .box-container .box{
+        text-align: center;
+    }
+/*----------Header------Responsive-------End---------*/
+}
+
+@media screen and (max-width: 450px) {
+    html{
+        font-size: 50%;
+    }    
+}
+
+/*------------Services-----------Section--------Start--------*/
+@media screen and (max-width:768px) {
+    .container{
+      padding: 80px 20px;
+    } 
+    
+    .container .title{
+      font-size: 30px;
+  }
+  }
+  /*------------Services-----------Section--------End--------*/
+/*----------Media-----------Responsive----------End---------*/
