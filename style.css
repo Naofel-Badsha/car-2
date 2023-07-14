@@ -238,6 +238,65 @@ section{
 
 
 
+    /*---------Icons------------Container---------End--------*/
+.iconsContainer{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #d1b7b7;
+}
+
+.iconsContainer .icons{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    gap: 1.8rem;
+    padding: 2.5rem;
+    cursor: pointer;
+}
+
+.iconsContainer .icons:hover{
+    background: #000;
+}
+
+.iconsContainer .icons i{
+    background: var(--croom);
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.iconsContainer .icons span{
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: var(--croom);
+    margin-left: 30px;
+}
+
+.iconsContainer .content .number{
+    font-size: 3.5rem;
+    color: lightseagreen;
+}
+
+.iconsContainer .icons p{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #32cd32;
+}
+/*---------Icons------------Container---------End--------*/
+
+
+
+
 
 
 
